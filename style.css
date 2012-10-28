@@ -1,0 +1,205 @@
+* {
+  transition-duration: 200ms;
+  transition-property: width, background;
+  transition-timing-function: ease;
+  font-family: 'Droid Sans',sans-serif;
+  color: white;
+}
+body {
+  background: #FFF;
+  padding: 0;
+  margin: 0;
+}
+nav{
+  overflow: hidden;
+}
+
+ul {
+  list-style: none;
+  overflow: hidden;
+  padding: 23px 10px 10px 10px;
+  margin: 0;
+}
+
+li {
+  float:left;
+  margin: 0 5px 0 5px;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px 10px 15px;
+  margin: 0;
+}
+
+li:hover {
+  background: #00090c;
+}
+
+li.active {
+  background: #00090c;
+}
+
+header {
+  background: #00293c;
+  border-top: solid 5px black;
+  overflow: hidden;
+}
+
+div.left {
+ float: left;
+}
+
+h1 {
+ width: 50%;
+  color: white;
+}
+
+h2 {
+  color: white;
+  font-weight: 400;
+  font-size: 60px;
+  letter-spacing: -3px;
+  line-height: 72px;
+  margin-bottom: 0;
+}
+
+h2 span {
+	display: inline-block;
+    font-size: 18px;
+    letter-spacing: -1px;
+    line-height: 19px;
+    margin: 0 0 0 -5px;
+    text-transform: uppercase;
+}
+
+h2 em {
+	display: block;
+	font-style: normal;
+	margin: -23px 0 0 60px;
+}
+
+div.col {
+  float: left;
+}
+
+.right {
+ float: right;
+}
+
+.col-1-4 {
+ width: 25%;
+}
+
+.col-3-4 {
+  width: 75%;
+}
+
+.col-1-2 {
+  width: 50%;
+}
+
+.col-1-8 {
+ width: 12.5%;
+}
+
+.page-wrap {
+  width: 1000px;
+  margin: 0px auto;
+  clear: both;
+  overflow: hidden;
+}
+
+.inner-wrap {
+  padding: 0 5px 5px 5px;
+}
+
+#slider {
+  overflow: hidden;
+  height: 380px;
+}
+
+#slider div {
+    clear: none;
+    display: inline-block;
+}
+
+#slider .header {
+  	clear: none;
+    margin: 30px 0 0 100px;
+    width: 300px;
+}
+
+#slider h2 {
+	border-bottom: thin solid #0277b1;
+}
+
+#slider p {
+	border-top: thin solid #02A5CB;
+    margin: 0;
+    padding: 10px 0;
+    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+#slider .image {
+  float: right;
+  margin: 50px 250px 0 0;
+  width: 250px;
+}
+
+.bright {
+   background: #027fb9;
+   clear: both;
+}
+
+a.button {
+	background: none repeat scroll 0 0 #001D26;
+    border: medium none;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.26);
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    margin: 0 2px 2px 0;
+    padding: 9px 14px;
+    text-transform: uppercase;
+    width: auto;
+}
+
+a.button:hover {
+	background: none repeat scroll 0 0 #00C3DD;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
